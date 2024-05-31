@@ -1,5 +1,6 @@
 package com.example.a2024accgr1meca
 
+import android.content.pm.ActivityInfo
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 

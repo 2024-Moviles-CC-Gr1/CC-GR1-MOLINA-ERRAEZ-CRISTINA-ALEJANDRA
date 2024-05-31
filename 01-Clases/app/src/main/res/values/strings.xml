@@ -1,4 +1,8 @@
 <resources>
-    <string name="app_name">2024ACCGR1MECA</string>
-    <string name="saludo">Hello Word</string>
+    <string name="saludo">This is my first interface in Android</string>
+    <color name="textoE">#F0E23B</color>
+    <color name="backgroundE">#853BF0</color>
+    <color name="backLand">#E5AEF1</color>
+    <color name="textoLand">#A82D8E</color>
+    <string name="saludoLand">This is my first interface in Android (Land View)</string>
 </resources>

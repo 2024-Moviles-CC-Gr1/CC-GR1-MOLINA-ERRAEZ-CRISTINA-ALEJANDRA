@@ -1,4 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="saludo">Hola Mundo</string>
+    <string name="saludo">Esta es mi primera interfaz en Android</string>
+    <color name="textoE">#1423A0</color>
+    <color name="backgroundE">#91BCF4</color>
+    <color name="backLand">#9BE8A2</color>
+    <color name="textoLand">#156A1D</color>
+    <string name="saludoLand">Esta es mi primera interfaz en Android (Vista Land)</string>
 </resources>
