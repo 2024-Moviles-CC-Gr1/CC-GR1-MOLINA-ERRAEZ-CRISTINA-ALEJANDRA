@@ -1,21 +1,21 @@
 {
   "project_info": {
-    "project_number": "365373685775",
-    "project_id": "came-2024a-cc-gr1",
-    "storage_bucket": "came-2024a-cc-gr1.appspot.com"
+    "project_number": "648588307672",
+    "project_id": "vaes-2024a-cc-gr1",
+    "storage_bucket": "vaes-2024a-cc-gr1.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:365373685775:android:429126567ff04e70b9237a",
+        "mobilesdk_app_id": "1:648588307672:android:351fc2ebfd8bcf6ca8fbad",
         "android_client_info": {
-          "package_name": "com.example.a2024accgr1meca"
+          "package_name": "com.example.a2024accgr1vaes"
         }
       },
       "oauth_client": [],
       "api_key": [
         {
-          "current_key": "AIzaSyCgVHGH2HJE1fmsDtQ9Bkq3-ly9RLWzhxA"
+          "current_key": "AIzaSyDQ-UTO242R_A7U2ynglh_KXfUmpJau81Y"
         }
       ],
       "services": {

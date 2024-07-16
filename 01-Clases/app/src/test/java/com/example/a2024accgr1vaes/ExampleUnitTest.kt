@@ -1,4 +1,4 @@
-package com.example.a2024accgr1meca
+package com.example.a2024accgr1vaes
 
 import org.junit.Test
 

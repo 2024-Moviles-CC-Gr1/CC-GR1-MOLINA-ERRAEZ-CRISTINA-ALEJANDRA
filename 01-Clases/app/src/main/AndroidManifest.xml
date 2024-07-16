@@ -10,8 +10,26 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
-        android:theme="@style/Theme.2024ACCGR1MECA"
+        android:theme="@style/Theme._2024ACCGR1VAES"
         tools:targetApi="31">
+        <activity
+            android:name=".ESqliteHelperEntrenador"
+            android:exported="false" />
+        <activity
+            android:name=".EBaseDeDatos"
+            android:exported="false" />
+        <activity
+            android:name=".ECrudEntrenador"
+            android:exported="false" />
+        <activity
+            android:name=".CIntentExplicitoParametros"
+            android:exported="false" />
+        <activity
+            android:name=".BListView"
+            android:exported="false" />
+        <activity
+            android:name=".ACicloVida"
+            android:exported="false" />
         <activity
             android:name=".MainActivity"
             android:exported="true">

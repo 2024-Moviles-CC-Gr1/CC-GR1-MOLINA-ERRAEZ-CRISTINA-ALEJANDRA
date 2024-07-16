@@ -2,23 +2,69 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/id_layout_main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/backgroundE"
     tools:context=".MainActivity">
 
     <TextView
+        android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:gravity="center"
         android:text="@string/saludo"
-        android:textAppearance="@style/TextAppearance.AppCompat.Medium"
-        android:textColor="@color/textoE"
-        android:textSize="30sp"
-        android:textStyle="bold|italic"
+        android:textColor="#CF1515"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btn_ciclo_vida"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:text="C. Vida"
+        app:layout_constraintBottom_toBottomOf="@+id/textView"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="@+id/textView"
+        app:layout_constraintVertical_bias="0.517" />
+
+    <Button
+        android:id="@+id/btn_ir_list_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="L. View"
+        app:layout_constraintEnd_toEndOf="@+id/btn_ciclo_vida"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/btn_ciclo_vida"
+        app:layout_constraintTop_toBottomOf="@+id/btn_ciclo_vida" />
+
+    <Button
+        android:id="@+id/btn_ir_intent_implicito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="l. Implicito"
+        app:layout_constraintEnd_toEndOf="@+id/btn_ir_intent_explicito"
+        app:layout_constraintStart_toStartOf="@+id/btn_ir_intent_explicito"
+        tools:layout_editor_absoluteY="264dp" />
+
+    <Button
+        android:id="@+id/btn_ir_intent_explicito"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="l. Explicito"
+        tools:layout_editor_absoluteX="278dp"
+        tools:layout_editor_absoluteY="193dp" />
+
+    <Button
+        android:id="@+id/btn_sqlite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sqlite"
+        app:layout_constraintEnd_toEndOf="@+id/textView"
+        app:layout_constraintStart_toStartOf="@+id/textView"
+        tools:layout_editor_absoluteY="264dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

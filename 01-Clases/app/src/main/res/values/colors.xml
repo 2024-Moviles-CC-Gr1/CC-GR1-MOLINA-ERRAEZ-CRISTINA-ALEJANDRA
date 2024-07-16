@@ -2,8 +2,4 @@
 <resources>
     <color name="black">#FF000000</color>
     <color name="white">#FFFFFFFF</color>
-    <color name="texto">#1423A0</color>
-    <color name="background">#91BCF4</color>
-    <color name="backLand">#E5AEF1</color>
-    <color name="textoLand">#A82D8E</color>
 </resources>
