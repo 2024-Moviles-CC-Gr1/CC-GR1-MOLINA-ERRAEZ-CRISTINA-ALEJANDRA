@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "365373685775",
+    "project_id": "came-2024a-cc-gr1",
+    "storage_bucket": "came-2024a-cc-gr1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365373685775:android:429126567ff04e70b9237a",
+        "android_client_info": {
+          "package_name": "com.example.a2024accgr1meca"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgVHGH2HJE1fmsDtQ9Bkq3-ly9RLWzhxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:365373685775:android:ffc5cab29b99b6e6b9237a",
+        "android_client_info": {
+          "package_name": "com.example.pinterest"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCgVHGH2HJE1fmsDtQ9Bkq3-ly9RLWzhxA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
